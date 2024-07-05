@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.filter-section {
+  margin: 1vw 2vw;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  display: ruby-text;
+}
+.header-topic {
+  text-align: center;
+  color: aliceblue;
+  background: rgb(195, 174, 205);
+  border: 2px solid black;
+  width: 60%;
+  border-radius: 40px;
+  justify-content: center;
+}
+
+.header-input{
+height: 70px;
+width: 50% !important;
+border: 4px solid rgb(129, 219, 219) !important;
+}
+
+button#dropdown-basic {
+  border-radius: 20px;
+}
+
+button.btn.btn-danger {
+  border-radius: 20px;
+}
+
+.chart-style{
+  border-radius: 30px  ;
+}
