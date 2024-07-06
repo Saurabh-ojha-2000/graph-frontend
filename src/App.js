@@ -9,7 +9,7 @@ function App() {
     const [mainData, setMainData] = useState([]);    
     const getDataFromDB = async() => {
         try{
-            const response = await axios.get("http://localhost:8000/api/data/all");
+            const response = await axios.get("https://graph-backend-n93w.onrender.com/api/data/all");
             setMainData(response.data.data)
         }
         catch(e){
